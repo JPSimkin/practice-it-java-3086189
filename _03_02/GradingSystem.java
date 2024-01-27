@@ -20,11 +20,11 @@ public class GradingSystem {
     // If it's less than 60, return 'F'.
     if (percentage >=90) {
       return 'A';
-    } else if (percentage >=80 && percentage <=89) {
+    } else if (percentage >=80) {
       return 'B';
-    } else if (percentage >=70 && percentage <=79) {
+    } else if (percentage >=70) {
       return 'C';
-    } else if (percentage >=60 && percentage <=69) {
+    } else if (percentage >=60) {
       return 'D';
     } else {
       return 'F';
